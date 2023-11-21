@@ -1,0 +1,83 @@
+.nav{
+    width: 100%;
+    height: 90px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*{
+    margin: 0;
+}
+img{
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.select_cntry{
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+.searchBox{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    margin-left: 10px;
+}
+.search{
+    width: 100%;
+    height: 36px;
+    border:2px solid black;
+}
+.btn-search{
+    width: 30px;
+    height: 36px;
+    background-color:black;
+}
+.sell_Btn{
+    width: 110px;
+    height: 50px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-left-color: yellow;
+    border-right-color:blue ;
+    border-top-color: aqua;
+    border-bottom-color: blue;
+}
+.category{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    box-shadow:1px 1px 1px 2px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.cat{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.category .cat_options{
+    padding: 10px;
+}
+.category .cat_options:hover{
+    color:blue;
+}
+
+.banner{
+    width: 90%;
+    height: 400px;
+    background-color: beige;
+    margin-left: 70px;
+    margin-top: 20px;
+}    
+.banner img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
